@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>files/report.htm</file>
+        <file>files/analystReport.htm</file>
+    </qresource>
+</RCC>
