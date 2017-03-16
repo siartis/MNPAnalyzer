@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WelcomeWindow</class>
+ <widget class="QDialog" name="WelcomeWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>473</width>
+    <height>485</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MNPPhoneAnalyzer | Добро пожаловать</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextBrowser" name="welcomeBrowser">
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt;Добро пожаловать в приложение &amp;quot;MNPPhoneAnalyzer&amp;quot;!&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:50px;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; color:#ffffff;&quot;&gt;В связи с вступлением в силу с &lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; font-weight:600; font-style:italic; color:#ffffff;&quot;&gt;01.12.2013г.&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; color:#ffffff;&quot;&gt; закона &lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; font-weight:600; font-style:italic; color:#ffffff;&quot;&gt;&amp;quot;Об отмене мобильного рабства&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; color:#ffffff;&quot;&gt; абоненты мобильных операторов получили возможность менять оператора мобильной связи без изменения номера телефона. Многие операторы предоставляют возможность льготных или бесплатных  вызовов внутри сети. С помощью данного приложение вы можете не только узнать, какому оператору мобильной связи принадлежит номер телефона, но и получить краткий исследовательский отчет (с диаграммой), отражающий общую картину смены операторов в указанном диапазоне номеров телефонов.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:50px;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; color:#ffffff;&quot;&gt;Для того, чтобы начать работу с приложением, нажмите кнопку &amp;quot;Далее&amp;quot;, затем &lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; font-weight:600; font-style:italic; color:#ffffff;&quot;&gt;выберите исследуемого оператора&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; color:#ffffff;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; font-weight:600; font-style:italic; color:#ffffff;&quot;&gt;укажите диапазон исследуемых номеров&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; color:#ffffff;&quot;&gt;, после чего перейдите на следующую форму показа результатов работы приложения, не забывая нажать кнопку &amp;quot;Старт&amp;quot;. Одним из результатов работы приложения является отображение таблицы с исследуемыми номерами, которая показывает номера телефонов, название операторов мобильной связи, а также регион, в котором зарегистрирован номер. В приложении представлена возможность получить данный отчет (в более детальной форме) на адрес электронной почты, а также идентичный отчет, но уже с диаграммой, отражающей относительную долю (в %) представленных в выборке операторов мобильной связи. &lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:50px;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; color:#ffffff;&quot;&gt;Рассмотрим пример - исследуемый оператор - &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;Мегафон&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; color:#ffffff;&quot;&gt;&amp;quot;, исследуемый диапазон номеров - &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;+79260000000 - +79260004659&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; color:#ffffff;&quot;&gt;&amp;quot;, у некоторых номеров из этого диапазона изменился оператор мобильной связи. В кратком отчете будет отражен факт смены оператора, а в диаграмме (и в кратком отчете) будет представлена общая картина, отражающая количество различных операторов в исследуемом диапазоне номеров.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:50px;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma'; font-size:12pt; font-weight:696; font-style:italic; text-decoration: underline; color:#ffffff;&quot;&gt;Обращаем Ваше внимание на то, что краткий отчет (в том числе с диаграммной) формируется в режиме реального времени!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="quitButton">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Tahoma</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Выход</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="Line" name="line_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="nextButton">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Tahoma</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Далее</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line_5">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

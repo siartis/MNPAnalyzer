@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style/fon.png</file>
+        <file>style/buttonStyle.css</file>
+        <file>style/comboStyle.css</file>
+        <file>style/progressStyle.css</file>
+        <file>style/tableStyle.css</file>
+        <file>files/welcome.htm</file>
+        <file>style/lineStyle.css</file>
+        <file>style/loader.gif</file>
+        <file>style/okImage.png</file>
+        <file>style/errorImage.png</file>
+        <file>style/helpImage.png</file>
+        <file>Simico.ico</file>
+        <file>style/SimicoPNG.png</file>
+        <file>style/startLoader.gif</file>
+        <file>files/reportTemplate/reportTemplate.htm</file>
+    </qresource>
+</RCC>
