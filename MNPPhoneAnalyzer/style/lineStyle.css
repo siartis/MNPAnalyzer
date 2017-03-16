@@ -1,0 +1,80 @@
+/*Стили для lineEdit для ввода диапазона номеров телефонов */
+QLineEdit#codeOperatorLine {
+     border-radius: 5px;
+     border: 2px solid white;
+     padding: 3px 5px;
+     color: white;
+ }
+QLineEdit#codeOperatorLine:-webkit-input-placeholder { color: white; }
+QLineEdit#codeOperatorLine:-moz-placeholder { color: white; }
+
+/**/
+QLineEdit#codeOperatorLine2 {
+     border-radius: 5px;
+     border: 2px solid white;
+     padding: 3px 5px;
+     color: white;
+ }
+QLineEdit#codeOperatorLine2:-webkit-input-placeholder { color: white; }
+QLineEdit#codeOperatorLine2:-moz-placeholder { color: white; }
+
+/**/
+QLineEdit#phoneLine1 {
+     border-radius: 5px;
+     border: 2px solid white;
+     padding: 3px 5px;
+     color: white;
+ }
+QLineEdit#phoneLine1:-webkit-input-placeholder { color: white; }
+QLineEdit#phoneLine1:-moz-placeholder { color: white; }
+
+/**/
+QLineEdit#phoneLine2 {
+     border-radius: 5px;
+     border: 2px solid white;
+     padding: 3px 5px;
+     color: white;
+ }
+QLineEdit#phoneLine2:-webkit-input-placeholder { color: white; }
+QLineEdit#phoneLine2:-moz-placeholder { color: white; }
+
+/**/
+QLineEdit#phoneLine3 {
+     border-radius: 5px;
+     border: 2px solid white;
+     padding: 3px 5px;
+     color: white;
+ }
+QLineEdit#phoneLine3:-webkit-input-placeholder { color: white; }
+QLineEdit#phoneLine3:-moz-placeholder { color: white; }
+
+/**/
+QLineEdit#phoneLine12 {
+     border-radius: 5px;
+     border: 2px solid white;
+     padding: 3px 5px;
+     color: white;
+ }
+QLineEdit#phoneLine12:-webkit-input-placeholder { color: white; }
+QLineEdit#phoneLine12:-moz-placeholder { color: white; }
+
+/**/
+QLineEdit#phoneLine22 {
+     border-radius: 5px;
+     border: 2px solid white;
+     padding: 3px 5px;
+     color: white;
+ }
+QLineEdit#phoneLine22:-webkit-input-placeholder { color: white; }
+QLineEdit#phoneLine22:-moz-placeholder { color: white; }
+
+/**/
+QLineEdit#phoneLine32 {
+     border-radius: 5px;
+     border: 2px solid white;
+     padding: 3px 5px;
+     color: white;
+ }
+QLineEdit#phoneLine32:-webkit-input-placeholder { color: white; }
+QLineEdit#phoneLine32:-moz-placeholder { color: white; }
+

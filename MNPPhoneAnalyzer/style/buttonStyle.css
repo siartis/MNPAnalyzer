@@ -1,0 +1,83 @@
+/*Кнопка "Старт"*/
+QPushButton#startButton {
+  color: #fff; /* цвет текста */
+  border-radius: 10px;
+  /*background: rgb(212,75,56);*/ /* фон кнопки */
+  background: green;
+  outline: none; /* убирать контур в Mozilla */
+}
+QPushButton#startButton:pressed { background: #00FF66; } /* при нажатии курсора мыши */
+
+
+/*Кнопка "Получить отчет"*/
+QPushButton#getResearchButton {
+  color: yellow;/*#fff;*/ /* цвет текста */
+  border-radius: 10px;
+  background: rgb(212,75,56); /* фон кнопки */
+  outline: none; /* убирать контур в Mozilla */
+}
+QPushButton#getResearchButton:pressed { background: rgb(232,95,76); } /* при нажатии курсора мыши */
+
+
+/*Кнопка "Далее (окно приветствия)"*/
+QPushButton#nextButton {
+  color: #fff; /* цвет текста */
+  border-radius: 10px;
+  background: green; /* фон кнопки */
+  outline: none; /* убирать контур в Mozilla */
+}
+QPushButton#nextButton:pressed { background: #00FF66; } /* при нажатии курсора мыши */
+
+/*Кнопка "Выход (окно приветствия)"*/
+QPushButton#quitButton {
+  color: #fff; /* цвет текста */
+  border-radius: 10px;
+  background: rgb(212,75,56); /* фон кнопки */
+  outline: none; /* убирать контур в Mozilla */
+}
+QPushButton#quitButton:pressed { background: rgb(232,95,76); } /* при нажатии курсора мыши */
+
+
+/*Кнопка "Школьник/студент (окно выбора пользователя)"*/
+QPushButton#studentButton {
+  color: #fff; /* цвет текста */
+  border-radius: 10px;
+  background: #000033; /* фон кнопки */
+  outline: none; /* убирать контур в Mozilla */
+}
+QPushButton#studentButton:pressed { background: #0033CC; } /* при нажатии курсора мыши */
+
+
+/*Кнопка "Аналитик (окно выбора пользователя)"*/
+QPushButton#marketButton {
+  color: #fff; /* цвет текста */
+  border-radius: 10px;
+  background: #006600; /* фон кнопки */
+  outline: none; /* убирать контур в Mozilla */
+}
+QPushButton#marketButton:pressed { background: #339933; } /* при нажатии курсора мыши */
+
+/*Кнопка "Диаграмма"*/
+QPushButton#showDiagramButton {
+  color: white; /* цвет текста */
+  border-radius: 10px;
+  background: #000033; /* фон кнопки */
+  outline: none; /* убирать контур в Mozilla */
+}
+QPushButton#showDiagramButton:pressed { background: #0033CC; } /* при нажатии курсора мыши */
+
+/*Кнопка "Выгрузить в CSV"*/
+QPushButton#unloadCSVButton {
+  color: white; /* цвет текста */
+  border-radius: 10px;
+  background: blue; /* фон кнопки */
+  outline: none; /* убирать контур в Mozilla */
+}
+
+/*Кнопка "Выгрузить в HTML"*/
+QPushButton#unloadHTMLButton {
+  color: white; /* цвет текста */
+  border-radius: 10px;
+  background: blue; /* фон кнопки */
+  outline: none; /* убирать контур в Mozilla */
+}

@@ -1,0 +1,20 @@
+/*Таблица*/
+QTableWidget#phoneTable {
+    border-radius: 3px;
+    border: 2px solid yellow;
+    /*background-color: white;*/
+    gridline-color: black;
+    color: white;
+    selection-background-color: qlineargradient(x1: 0, y1: 0, x2: 0.5, y2: 0.5,
+                                     stop: 0 #92FFE8, stop: 1 green);
+}
+
+QTableWidget#phoneTable QHeaderView::section {
+    background-color: green;
+}
+
+QTextBrowser#welcomeBrowser {
+    background-color: #434343;
+    border-radius: 3px;
+    border: 2px solid blue;
+}

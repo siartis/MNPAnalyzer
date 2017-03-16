@@ -1,0 +1,104 @@
+/*Список операторов*/
+QComboBox#operatorBox {
+     border-radius: 5px;
+     border: 3px solid blue;
+     padding: 3px 5px;
+     color: #33FF00;
+}
+QComboBox#operatorBox:drop-down {
+    border-radius: 5px;
+    border: 3px solid blue;
+    padding: 3px 5px;
+    background-color: blue;
+
+
+border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+QComboBox#operatorBox:on {
+    padding-top: 3px;
+    padding-left: 4px;
+}
+
+
+/*Список серверов*/
+QComboBox#serverBox {
+     border-radius: 5px;
+     border: 3px solid blue;
+     padding: 3px 5px;
+     color: #33FF00;
+}
+QComboBox#serverBox:drop-down {
+    border-radius: 5px;
+    border: 3px solid blue;
+    padding: 3px 5px;
+    color: yellow;
+}
+
+
+/*Список MNP-сервисов*/
+QComboBox#mnpServiceBox {
+     border-radius: 5px;
+     border: 3px solid blue;
+     padding: 3px 5px;
+     color: #33FF00;
+}
+QComboBox#mnpServiceBox:drop-down {
+    border-radius: 5px;
+    border: 3px solid blue;
+    padding: 3px 5px;
+    color: yellow;
+}
+
+/*Список регионов РФ*/
+QComboBox#regionBox {
+     border-radius: 5px;
+     border: 3px solid blue;
+     padding: 3px 5px;
+     color: #33FF00;
+}
+QComboBox#regionBox:drop-down {
+    border-radius: 5px;
+    border: 3px solid blue;
+    padding: 3px 5px;
+    color: yellow;
+}
+
+
+/*Список кодов операторов РФ*/
+QComboBox#codeOperatorBox {
+     border-radius: 5px;
+     border: 3px solid blue;
+     padding: 3px 5px;
+     color: #33FF00;
+}
+QComboBox#codeOperatorBox:drop-down {
+    border-radius: 5px;
+    border: 3px solid blue;
+    padding: 3px 5px;
+    color: yellow;
+}
+
+/*Количество потоков*/
+QSpinBox#threadSpin {
+    border-radius: 5px;
+    border: 3px solid blue;
+    background-color: #434343;
+    color: yellow;
+}
+
+QSpinBox#threadSpin:up-arrow {
+    width: 50px;
+    border-width: 5px;
+    color: yellow;
+}
+
+QSpinBox#threadSpin:down-arrow {
+    width: 50px;
+    border-width: 5px;
+    color: yellow;
+}
+
