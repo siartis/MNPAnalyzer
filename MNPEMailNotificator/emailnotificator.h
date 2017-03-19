@@ -16,24 +16,11 @@ public:
                                const QString &body,
                                QStringList files);
 
-signals:
-
-public slots:
-
 private:
-//    void getData(const QString &to,
-//                 const QString &subject,
-//                 const QString &body,
-//                 QStringList files);
-//    QString m_to;
-//    QString m_subject;
-//    QString m_body;
-//    QStringList m_files;
-
     Smtp *m_smtp;
 
-    QString m_userName = "testUser@vzletsamara.ru";
-    QString m_userPassword = "testUser%";
+    QString m_userName = "mnpphoneanalyzer@mail.ru";
+    QString m_userPassword = "*****";
     QString m_server = "smtp.mail.ru";
     int m_serverPort = 465;
 };
