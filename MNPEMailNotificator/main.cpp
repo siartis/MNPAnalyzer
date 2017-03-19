@@ -49,17 +49,6 @@ int main(int argc, char *argv[])
         printf("1");
         a.quit();
         return 0;
-
-        //        EMailNotifier em = new EMailNotifier();
-        //        bool ok = em.sendNotification(email, textMessage, "Краткий отчет от мобильного приложения \"MNPPhoneAnalyzer\"", filePath, diagramPath);
-        //        if (ok)
-        //        {
-        //            Console.Write("1");
-        //        }
-        //        else
-        //        {
-        //            Console.WriteLine("-1");
-        //        }
     }
 
 
@@ -77,17 +66,6 @@ int main(int argc, char *argv[])
         textMessage = textMessage.replace("$$$rangeNumbers$$$", rangeNumbers);
         textMessage = textMessage.replace("$$$operatorName$$$", operatorName);
         textMessage = textMessage.replace("$$$Additionally$$$", "");
-
-        //                    EMailNotifier em = new EMailNotifier();
-        //                    bool ok = em.sendNotificationWithoutDiagram(email, textMessage, "Краткий отчет от мобильного приложения \"MNPPhoneAnalyzer\"", filePath);
-        //                    if (ok)
-        //                    {
-        //                        Console.Write("1");
-        //                    }
-        //                    else
-        //                    {
-        //                        Console.WriteLine("-1");
-        //                    }
 
         QStringList files;
         files.append(filePath);
@@ -121,19 +99,6 @@ int main(int argc, char *argv[])
         textMessage = textMessage.replace("$$$operatorCode$$$", operatorCode);
         textMessage = textMessage.replace("$$$Additionally$$$", "");
 
-        //                    EMailNotifier em = new EMailNotifier();
-        //                    bool ok = em.sendNotificationWithoutDiagram(email, textMessage, "Краткий аналитический отчет от мобильного приложения \"MNPPhoneAnalyzer\"", filePath);
-
-        //                    if (ok)
-        //                    {
-        //                        Console.Write("1");
-        //                    }
-        //                    else
-        //                    {
-        //                        Console.WriteLine("-1");
-        //                    }
-
-
         QStringList files;
         files.append(filePath);
 
@@ -150,5 +115,4 @@ int main(int argc, char *argv[])
 
     a.quit();
     return 0;
-    //return a.exec();
 }
