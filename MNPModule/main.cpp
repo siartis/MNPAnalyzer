@@ -17,13 +17,10 @@
 #include "worker.h"
 
 
-QByteArray Input(void) {
-    QFile f;
-    if(!f.open(fileno(stdin),QIODevice::ReadOnly)) {
-        qApp->quit();
-        exit(404);
-    }
-    return f.readAll();
+//Разбор строки параметров, переданных приложению
+QStringList getParams(const QString queryString)
+{
+    return queryString.split("&");
 }
 
 
@@ -34,8 +31,9 @@ int main(int argc, char *argv[])
     setmode(fileno(stdout),O_BINARY);
     setmode(fileno(stdin ),O_BINARY);
 
-    QString ps = Input();
-    QStringList params = ps.split("&");
+    //Для Apache
+    printf("Content-Type: text/html\n\n");
+    QStringList params = getParams(QString("%1").arg(getenv("QUERY_STRING")));
 
     FileHAndler fl;
     Worker w;
